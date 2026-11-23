@@ -49,23 +49,23 @@ Initial target period: 2000–2022.
 
 The planned workflow:
 
-1. Extract data from the World Bank API.
-2. Preserve original source files.
-3. Transform and validate observations using Python.
-4. Store structured data in a relational database.
-5. Query and analyze the data using SQL.
-6. Present findings through visualizations and documentation.
+- Extract data from the World Bank API.
+- Preserve original source files.
+- Transform and validate observations using Python.
+- Store structured data in a relational database.
+- Query and analyze the data using SQL.
+- Present findings through visualizations and documentation.
 
 6. Repository Structure
 
 connected-development/
-├── README.md
-├── data/
-│   ├── raw/
-│   └── processed/
-├── docs/
-│   └── database-schema.png
-└── .gitignore
+| README.md
+| data/
+|    ...raw/
+|    ...processed/
+| docs/
+|    ...database-schema.png
+| .gitignore
 
 7. Project Status
 
